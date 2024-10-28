@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.leaflet-popup-content-wrapper {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+.leaflet-popup-content {
+    margin: 0;
+}
+
+.leaflet-popup-tip {
+    display: none;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+.custom-popup .leaflet-popup-tip {
+    display: none;
+}
+
+.leaflet-popup-close-button{
+
+    display: none;
+
+}
+
+.card-title{
+    
+    font-size:x-large;
+    font-weight: bold;
+
+}
+
+.card-text{
+
+    font-size:large;
+    color: gray;
+
+}
